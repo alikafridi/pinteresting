@@ -28,6 +28,9 @@ gem 'jbuilder', '~> 1.2'
 # Bootstrap Gem
 gem 'bootstrap-sass'
 
+# Devise Gem for adding users
+gem 'devise', '~>3.1.0rc2'
+
 # Use sqlite3 as the database for development and test purposes
 group :development, :test do
 	gem 'sqlite3'
