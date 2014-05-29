@@ -1,7 +1,14 @@
 <div class="jumbotron center">
-		<h1>Welcome!</h1>
+	<h1>Welcome!</h1>
+
+	<% if user_signed_in? %>
+		Do Something Here
+
+	<% else %>
 		<p>A Pinterest clone built while following the <%= link_to "One Month Rails", "http://onemonthrails.com" %> Tutorial.</p>
-		
-		<%= link_to "Log In", "#", class:"btn btn-default btn-lg" %>
-		<%= link_to "Sign up", "#", class:"btn btn-primary btn-lg" %>
+
+	<%= link_to "Log In", new_user_session_path, class:"btn btn-default btn-lg" %>
+	<%= link_to "Sign up", new_user_registration_path, class:"btn btn-primary btn-lg" %>
+	<% end %>
+
 </div>
