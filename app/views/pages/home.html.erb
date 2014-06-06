@@ -2,7 +2,8 @@
 	<h1>Welcome!</h1>
 
 	<% if user_signed_in? %>
-		Do Something Here
+		<br>
+		<%= link_to "View your pins here", pins_path, class:"btn btn-primary btn-lg" %>
 
 	<% else %>
 		<p>A Pinterest clone built while following the <%= link_to "One Month Rails", "http://onemonthrails.com" %> Tutorial.</p>
