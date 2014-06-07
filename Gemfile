@@ -31,8 +31,11 @@ gem 'bootstrap-sass'
 # Devise Gem for adding users
 gem 'devise', '~>3.1.0rc2'
 
-# Paperclip Gem for images
+# Paperclip Gem for uploading images
 gem 'paperclip', '~> 3.0'
+
+# AWS SDK in order to store images
+gem 'aws-sdk', '~> 1.20.0'
 
 # Use sqlite3 as the database for development and test purposes
 group :development, :test do
