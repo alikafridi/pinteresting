@@ -1,8 +1,10 @@
+<% if user_signed_in? %>
 <center>
-  <% if user_signed_in? %>
-    <span class="glyphicon glyphicon-plus"></span> New Pin
-  <% end %>
+  <%= link_to new_pin_path, class: "btn btn-default btn-lg" do %>
+              <span class="glyphicon glyphicon-plus"></span> New Pin
+            <% end %>
 </center>
+<% end %>
 
 <br>
 
