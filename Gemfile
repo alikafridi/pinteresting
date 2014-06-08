@@ -42,6 +42,9 @@ gem 'aws-sdk', '~> 1.20.0'
 # Masonry Rails
 gem 'masonry-rails', '~> 0.2.0'
 
+# Gem for Paginations
+gem 'will_paginate-bootstrap'
+
 
 # Use sqlite3 as the database for development and test purposes
 group :development, :test do
