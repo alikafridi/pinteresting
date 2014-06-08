@@ -43,6 +43,9 @@ gem 'aws-sdk', '~> 1.20.0'
 gem 'masonry-rails', '~> 0.2.0'
 
 # Gem for Paginations
+gem 'will_paginate'
+
+# Bootstrap for Pagination
 gem 'will_paginate-bootstrap'
 
 
