@@ -1,5 +1,3 @@
 == README
 
 Pinteresting is a pinterest clone I developed while following the [One Month Rais](http://onemonthrails.com) tutorial. This is my first project with Ruby on Rails.
-
-The app can be viewed live at http://ali-pinteresting.herokuapp.com.
